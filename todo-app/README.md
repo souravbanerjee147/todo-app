@@ -36,7 +36,7 @@ A To-Do List application built with React and Vite. This application allows user
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/souravbanerjee147/todo-app.git
 cd todo-app
 ```
 
