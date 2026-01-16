@@ -1,7 +1,37 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+
+
+
+
+
 # To-Do List Application - React
 
 A beautiful, feature-rich To-Do List application built with React and Vite. This application allows users to manage their tasks efficiently with a modern, responsive design and theme toggle functionality.
 
+![React](https://img.shields.io/badge/React-18.2-blue)
+![Vite](https://img.shields.io/badge/Vite-4.5-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## ✨ Features
 
@@ -25,6 +55,26 @@ A beautiful, feature-rich To-Do List application built with React and Vite. This
 - **LocalStorage** - Client-side data persistence
 - **ES6+** - Modern JavaScript features
 
+## 📁 Project Structure
+
+```
+todo-app/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── ToDoList.jsx
+│   │   ├── ToDoItem.jsx
+│   │   ├── AddTodo.jsx
+│   │   └── ThemeToggle.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+├── public/
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
 ## 🔧 Installation & Setup
 
@@ -76,7 +126,7 @@ npm run preview
 
 ### Managing Tasks
 - **Complete Task**: Click the checkbox
-- **Edit Task**: Click "Edit", modify text and click "Save"
+- **Edit Task**: Click "Edit", modify text, click "Save"
 - **Delete Task**: Click "Delete"
 - **Clear Completed**: Click "Clear Completed Tasks"
 - **Clear All**: Click "Clear All Tasks"
@@ -104,7 +154,7 @@ npm run preview
 ### 3. Responsive Design
 - Mobile-first approach
 - Adaptive layout for all screen sizes
-- Touch-friendly buttons for mobile
+- Touch-friendly buttons on mobile
 - Print-friendly styles
 
 ### 4. Theme System
@@ -187,6 +237,14 @@ vercel
 - PWA capabilities
 - Unit tests
 
+## 👥 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 
 ## 🙏 Acknowledgments
 
@@ -203,7 +261,7 @@ Project Link: https://github.com/souravbanerjee147/todo-app
 
 ## ⭐ Show your support
 
-Give me a ⭐️ if this project helped you!
+Give a ⭐️ if this project helped you!
 
 ---
 
