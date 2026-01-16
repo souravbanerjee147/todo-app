@@ -2,9 +2,6 @@
 
 A beautiful, feature-rich To-Do List application built with React and Vite. This application allows users to manage their tasks efficiently with a modern, responsive design and theme toggle functionality.
 
-![React](https://img.shields.io/badge/React-18.2-blue)
-![Vite](https://img.shields.io/badge/Vite-4.5-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## ✨ Features
 
@@ -28,26 +25,6 @@ A beautiful, feature-rich To-Do List application built with React and Vite. This
 - **LocalStorage** - Client-side data persistence
 - **ES6+** - Modern JavaScript features
 
-## 📁 Project Structure
-
-```
-todo-app/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── ToDoList.jsx
-│   │   ├── ToDoItem.jsx
-│   │   ├── AddTodo.jsx
-│   │   └── ThemeToggle.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── App.css
-├── public/
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
 
 ## 🔧 Installation & Setup
 
@@ -99,7 +76,7 @@ npm run preview
 
 ### Managing Tasks
 - **Complete Task**: Click the checkbox
-- **Edit Task**: Click "Edit", modify text, click "Save"
+- **Edit Task**: Click "Edit", modify text and click "Save"
 - **Delete Task**: Click "Delete"
 - **Clear Completed**: Click "Clear Completed Tasks"
 - **Clear All**: Click "Clear All Tasks"
@@ -127,7 +104,7 @@ npm run preview
 ### 3. Responsive Design
 - Mobile-first approach
 - Adaptive layout for all screen sizes
-- Touch-friendly buttons on mobile
+- Touch-friendly buttons for mobile
 - Print-friendly styles
 
 ### 4. Theme System
@@ -210,14 +187,6 @@ vercel
 - PWA capabilities
 - Unit tests
 
-## 👥 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 
 ## 🙏 Acknowledgments
 
@@ -234,7 +203,7 @@ Project Link: https://github.com/souravbanerjee147/todo-app
 
 ## ⭐ Show your support
 
-Give a ⭐️ if this project helped you!
+Give me a ⭐️ if this project helped you!
 
 ---
 
